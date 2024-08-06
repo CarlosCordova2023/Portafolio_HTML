@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <p>Breve descripción sobre mí.</p>
+        <h1>Carlos Córdova</h1>
+        <img src="mi_foto.jpg" alt="Foto de Carlos Córdova" class="profile-photo" height="250">
+        <p>Desarrollador web apasionado por crear soluciones innovadoras y eficientes. 
+            Con experiencia en HTML, CSS, JavaScript y React.</p>
+    </header>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos Realizados</h2>
+        <div class="project">
+            <h3>Análisis de datos con Python</h3>
+            <p>Utilización de librerias con Panda y Numpy.</p>
+        </div>
+        <div class="project">
+            <h3>Utilización de Ruby On Rails</h3>
+            <p>Creación de programas utilizando Ruby On Rails con PostgreSQL.</p>
+        </div>
+    </section>
+
+
+    <!--FORMULARIO CONTACTO  -->
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+    
+<!--FORMULARIO CONTACTO  -->
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
